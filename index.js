@@ -18,6 +18,6 @@ overlay.addEventListener('click',addHiden)
 
 document.addEventListener('keydown',(e)=>{
     if(e.key=='Escape'){
-    addHiden
+    addHiden()
     }
 })
