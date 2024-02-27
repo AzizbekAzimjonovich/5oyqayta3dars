@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn show-btn" id="show-btn">
+            show modal
+        </button>
+
+        <div class="modal hiden" id="modal">
+            <header>
+                <h3>Japan</h3>
+                <button class="btn close-btn" id="close-btn">
+                    <i class="fas fa-close"></i>
+                </button>
+            </header>
+
+            <main>
+                <h2>
+                    Modal-title
+                </h2>
+                <p>
+                    Japan is an island nation in East Asia. This country is recognized for its economy, technology, culture and natural aspects.
+                </p>
+            </main>
+        </div>
+    </div>
+    <div class="overlay hiden" id="overlay"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
